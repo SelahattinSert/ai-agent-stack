@@ -22,7 +22,7 @@
 [![Repos](https://img.shields.io/badge/repos_indexed-25-000000?style=for-the-badge&labelColor=111)](.)
 [![PRs](https://img.shields.io/badge/PRs-welcome-22c55e?style=for-the-badge&labelColor=111)](.)
 [![License](https://img.shields.io/badge/license-MIT-3b82f6?style=for-the-badge&labelColor=111)](LICENSE)
-[![Updated](https://img.shields.io/badge/updated-2025-a855f7?style=for-the-badge&labelColor=111)](.)
+[![Updated](https://img.shields.io/badge/updated-2026-a855f7?style=for-the-badge&labelColor=111)](.)
 
 </div>
 
