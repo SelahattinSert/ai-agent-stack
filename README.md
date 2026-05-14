@@ -19,7 +19,7 @@
 
 <br/>
 
-[![Repos](https://img.shields.io/badge/repos_indexed-25-000000?style=for-the-badge&labelColor=111)](.)
+[![Repos](https://img.shields.io/badge/repos_indexed-26-000000?style=for-the-badge&labelColor=111)](.)
 [![PRs](https://img.shields.io/badge/PRs-welcome-22c55e?style=for-the-badge&labelColor=111)](.)
 [![License](https://img.shields.io/badge/license-MIT-3b82f6?style=for-the-badge&labelColor=111)](LICENSE)
 [![Updated](https://img.shields.io/badge/updated-2026-a855f7?style=for-the-badge&labelColor=111)](.)
@@ -32,7 +32,7 @@ Six categories. Twenty-five repos. Zero filler.
 
 | | Category | Repos |
 |--|--|--|
-| 🛠️ | [Developer Tools & IDE Extensions](#️-developer-tools--ide-extensions) | 4 |
+| 🛠️ | [Developer Tools & Skill Libraries](#️-developer-tools--skill-libraries) | 5 |
 | 🏗️ | [Agent Frameworks & Architectures](#️-agent-frameworks--architectures) | 5 |
 | 📋 | [Project & Task Management](#-project--task-management) | 2 |
 | ⚡ | [Performance & Code Quality](#-performance--code-quality) | 2 |
@@ -41,7 +41,7 @@ Six categories. Twenty-five repos. Zero filler.
 
 ---
 
-## 🛠️ Developer Tools & IDE Extensions
+## 🛠️ Developer Tools & Skill Libraries
 
 <br/>
 
@@ -108,6 +108,23 @@ YC's CEO built this for himself and then published it. The philosophy is baked i
 - Headless Chrome QA mode: a hidden browser tab runs automated tests against your live site like a real QA engineer
 
 > **When to use it:** Solo founder or small team trying to compress weeks of product work into days.
+
+<br/>
+
+---
+
+### [`K-Dense-AI/scientific-agent-skills`](https://github.com/K-Dense-AI/scientific-agent-skills)
+ 
+**Scientific Agent Skills** &nbsp;·&nbsp; *135 pre-built skills that transform agents into AI scientists*
+ 
+A modular skill library built on the open Agent Skills standard. Pre-documented integrations to 100+ scientific databases and 70+ Python packages — covering bioinformatics, drug discovery, clinical research, materials science, geospatial analysis, data visualization, and more. Drop in, pick the skills you need, start running complex multi-step scientific workflows immediately.
+ 
+- **135 production-ready skills** organized across 15+ scientific domains with curated examples and best practices
+- **100+ unified database access** — PubChem, ChEMBL, UniProt, AlphaFold, KEGG, Reactome, ClinicalTrials.gov, COSMIC, FDA, USPTO, FRED, and dozens more via a single interface
+- **Open standard** — works with any agent that supports Agent Skills (Claude Code, Cursor, Codex, Gemini CLI)
+- **Actively maintained**: 21.6k stars, 76 releases, continuous updates with new databases and packages
+
+> **When to use it:** Building agents for scientific research, multi-omics analysis, drug discovery, clinical trials, materials science, or any workflow combining specialized databases with scientific Python packages.
 
 <br/>
 
