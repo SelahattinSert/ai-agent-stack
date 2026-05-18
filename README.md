@@ -19,7 +19,7 @@
 
 <br/>
 
-[![Repos](https://img.shields.io/badge/repos_indexed-26-000000?style=for-the-badge&labelColor=111)](.)
+[![Repos](https://img.shields.io/badge/repos_indexed-27-000000?style=for-the-badge&labelColor=111)](.)
 [![PRs](https://img.shields.io/badge/PRs-welcome-22c55e?style=for-the-badge&labelColor=111)](.)
 [![License](https://img.shields.io/badge/license-MIT-3b82f6?style=for-the-badge&labelColor=111)](LICENSE)
 [![Updated](https://img.shields.io/badge/updated-2026-a855f7?style=for-the-badge&labelColor=111)](.)
@@ -32,7 +32,7 @@ Six categories. Twenty-five repos. Zero filler.
 
 | | Category | Repos |
 |--|--|--|
-| 🛠️ | [Developer Tools & Skill Libraries](#️-developer-tools--skill-libraries) | 5 |
+| 🛠️ | [Developer Tools & Skill Libraries](#️-developer-tools--skill-libraries) | 6 |
 | 🏗️ | [Agent Frameworks & Architectures](#️-agent-frameworks--architectures) | 5 |
 | 📋 | [Project & Task Management](#-project--task-management) | 2 |
 | ⚡ | [Performance & Code Quality](#-performance--code-quality) | 2 |
@@ -125,6 +125,23 @@ A modular skill library built on the open Agent Skills standard. Pre-documented 
 - **Actively maintained**: 21.6k stars, 76 releases, continuous updates with new databases and packages
 
 > **When to use it:** Building agents for scientific research, multi-omics analysis, drug discovery, clinical trials, materials science, or any workflow combining specialized databases with scientific Python packages.
+
+<br/>
+
+---
+
+### [`forrestchang/andrej-karpathy-skills`](https://github.com/forrestchang/andrej-karpathy-skills)
+
+**Karpathy-Inspired Claude Code Guidelines** &nbsp;·&nbsp; *Four principles that stop LLMs from making costly mistakes*
+
+A single `CLAUDE.md` file — grounded in Andrej Karpathy's observations on LLM coding pitfalls — that transforms how Claude Code (and Cursor) behaves. Four explicit principles: Think Before Coding, Simplicity First, Surgical Changes, and Goal-Driven Execution. Installs as a Claude Code plugin or as a per-project guideline file.
+
+- **Think Before Coding** — forces the model to surface assumptions, ask for clarification, and present tradeoffs instead of guessing silently
+- **Simplicity First** — eliminates the tendency to overcomplicate; no speculative features, abstractions, or premature error handling
+- **Surgical Changes** — guarantees only requested code is touched; prevents drive-by refactoring of unrelated code
+- **Goal-Driven Execution** — converts vague tasks into verifiable success criteria, letting the model loop independently
+
+> **When to use it:** Every Claude Code or Cursor project where you want fewer unnecessary rewrites, fewer overengineered solutions, and more precise diffs.
 
 <br/>
 
