@@ -22,7 +22,7 @@
 
 <br/>
 
-[![Repos](https://img.shields.io/badge/repos_indexed-27-000000?style=for-the-badge&labelColor=111)](.)
+[![Repos](https://img.shields.io/badge/repos_indexed-28-000000?style=for-the-badge&labelColor=111)](.)
 [![PRs](https://img.shields.io/badge/PRs-welcome-22c55e?style=for-the-badge&labelColor=111)](.)
 [![License](https://img.shields.io/badge/license-MIT-3b82f6?style=for-the-badge&labelColor=111)](LICENSE)
 [![Updated](https://img.shields.io/badge/updated-2026-a855f7?style=for-the-badge&labelColor=111)](.)
@@ -38,7 +38,7 @@ A categorized index of AI agent frameworks, developer tools, orchestration syste
 | | Category | Repos |
 |--|--|--|
 | 🛠️ | [Developer Tools & Skill Libraries](#️-developer-tools--skill-libraries) | 6 |
-| 🏗️ | [Agent Frameworks & Architectures](#️-agent-frameworks--architectures) | 5 |
+| 🏗️ | [Agent Frameworks & Architectures](#️-agent-frameworks--architectures) | 6 |
 | 📋 | [Project & Task Management](#-project--task-management) | 2 |
 | ⚡ | [Performance & Code Quality](#-performance--code-quality) | 2 |
 | 🧠 | [Learning & Curricula](#-learning--curricula) | 1 |
@@ -269,6 +269,23 @@ When an agent attempts to read a large file directly, Context Mode intercepts th
 - Persists session state — open files, active tasks, progress — in SQLite across compaction events, preventing context loss on long sessions
 
 > **When to use it:** Agent workflows that process large files, log archives, or any session expected to run for multiple hours.
+
+<br/>
+
+---
+
+### [`microsoft/Webwright`](https://github.com/microsoft/Webwright)
+
+**Webwright** &nbsp;·&nbsp; *Browser automation where the agent's entire session is a single reusable script*
+
+A browser agent framework built on a deliberately minimal premise: one terminal, one browser, one model. Instead of coordinate-based clicking or hidden orchestration layers, every web task the agent completes is written out as a self-contained, re-runnable Python script — so the browsing session itself becomes an artifact you can inspect, parameterize, and reuse.
+
+- **Code-as-action over coordinate prediction** — the agent writes Playwright code rather than predicting screen coordinates; generated scripts can be packaged as CLI tools and reused by smaller models
+- **State-of-the-art on real-website benchmarks** — 86.7% on Online-Mind2Web and 60.1% on Odysseys (long-horizon tasks) with a 100-step budget; +15.6 points over prior SOTA
+- **Plugin-first** — ships native manifests for Claude Code and Codex; integrates directly with OpenClaw and Hermes Agent via a shared `skills/webwright/` folder
+- **Task2UI mode** — completed tasks are rendered into a reusable HTML dashboard, not just logged to a terminal
+
+> **When to use it:** Any workflow requiring reliable, inspectable browser automation — from scraping and form submission to long-horizon multi-step web tasks.
 
 <br/>
 
